@@ -12,7 +12,7 @@ Un programma in python che, utilizzando le API di Gemini riesce permette di aver
 ## Setup
 
 1. Il programma richiede una versione recente di python (>3.9)
-2. Il programma richiede già che sia installato l'[SDK di Google Cloud](https://cloud.google.com/sdk/docs/install) e sia già [configurato](https://cloud.google.com/sdk/docs/authorizing?) con un account che possa accedere all'API di [Vertex AI](#https://cloud.google.com/vertex-ai/docs/reference/rest).
+2. Il programma richiede già che sia installato l'[SDK di Google Cloud](https://cloud.google.com/sdk/docs/install) e sia già [configurato](https://cloud.google.com/sdk/docs/authorizing) con un account che possa accedere all'API di [Vertex AI](#https://cloud.google.com/vertex-ai/docs/reference/rest).
 3. Configurato l'account, è consigliabile installare le libreria all'interno di un ``virtualenv``, utilizzando ad esempio la libreria ``venv``, installabile e attivabile col comando
    ```
    mkdir -p ~/.venvs
@@ -22,11 +22,11 @@ Un programma in python che, utilizzando le API di Gemini riesce permette di aver
    ```
    source ~/.venvs/gemini-cli/bin
    ```
-5. Installare le librerie necessarie dal file [requirements.txt](https://github.com/federicocacciariscuola/PiattaformaUnica/main/requirements.txt)
+5. Installare le librerie necessarie dal file [requirements.txt](https://github.com/federicocacciariscuola/PiattaformaUnica/blob/main/requirements.txt)
 
 ## Utilizzo
 
-Eseguire il file [CLI.py](https://github.com/federicocacciariscuola/PiattaformaUnica/main/CLI.py) con il comando
+Eseguire il file [CLI.py](https://github.com/federicocacciariscuola/PiattaformaUnica/blob/main/CLI.py) con il comando
 
 ```
 python3 CLI.py
