@@ -1,0 +1,4 @@
+vertexai
+python-dotenv
+rich
+pickle
